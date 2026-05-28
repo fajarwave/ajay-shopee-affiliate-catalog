@@ -1,13 +1,9 @@
 {
+  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "ajay-shopee-affiliate-catalog",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev"
-  },
-  "devDependencies": {
-    "wrangler": "^4.21.0"
+  "main": "src/index.js",
+  "compatibility_date": "2026-05-29",
+  "assets": {
+    "directory": "./public"
   }
 }
